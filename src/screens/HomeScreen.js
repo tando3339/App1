@@ -24,6 +24,16 @@ const HomeScreen = ({ navigation }) => {
 				onPress={() => navigation.navigate("Image")}>
 				<Text style={styles.title}>Image Screen</Text>
 			</TouchableOpacity>
+			<TouchableOpacity
+				style={styles.testButton}
+				onPress={() => navigation.navigate("Counter")}>
+				<Text style={styles.title}>Counter Screen</Text>
+			</TouchableOpacity>
+			<TouchableOpacity
+				style={styles.button}
+				onPress={() => navigation.navigate("Color")}>
+				<Text style={styles.title}>Color Screen</Text>
+			</TouchableOpacity>
 		</View>
 	);
 };
