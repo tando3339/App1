@@ -34,6 +34,21 @@ const HomeScreen = ({ navigation }) => {
 				onPress={() => navigation.navigate("Color")}>
 				<Text style={styles.title}>Color Screen</Text>
 			</TouchableOpacity>
+			<TouchableOpacity
+				style={styles.testButton}
+				onPress={() => navigation.navigate("Square")}>
+				<Text style={styles.title}>Square Screen</Text>
+			</TouchableOpacity>
+			<TouchableOpacity
+				style={styles.button}
+				onPress={() => navigation.navigate("Text")}>
+				<Text style={styles.title}>Text Screen</Text>
+			</TouchableOpacity>
+			<TouchableOpacity
+				style={styles.testButton}
+				onPress={() => navigation.navigate("Box")}>
+				<Text style={styles.title}>Box Screen</Text>
+			</TouchableOpacity>
 		</View>
 	);
 };
